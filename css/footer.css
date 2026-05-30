@@ -1,0 +1,46 @@
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .logo {
+    color: #f4f4fd;
+}
+
+.footer-wrapper .text {
+    margin-top: 16px;
+    max-width: 264px;
+}
+
+.footer {
+    padding:100px 0;
+}
+
+.footer-wrapper {
+    margin-right: 120px;
+}
+
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.socials .socials-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer .container {
+    display: flex;
+}
+
+.footer .socials-link:hover, .footer .socials-link:focus {
+ background-color: #31D0AA;
+}
+
+.socials .text {
+    color:#ffffff;
+    font-weight: 500;
+}
