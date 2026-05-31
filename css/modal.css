@@ -1,6 +1,8 @@
 .modal-window {
   display: flex;
   visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
   align-items: center;
   justify-content: center;
   position: fixed;
@@ -14,7 +16,9 @@
 }
 
 .is-open {
-visibility:visible;    
+visibility:visible; 
+opacity: 1;
+pointer-events: auto;   
 }
 
 .modal-wrapper {
@@ -100,6 +104,7 @@ visibility:visible;
     line-height: 1.16667;
     letter-spacing: 0.04em;
     fill: #2E2F42;
+    background-color: #fcfcfc;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
